@@ -1,0 +1,136 @@
+header {
+	width: 100%;
+	height: 150px;
+	background-color:#00004d;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	display: inline-block;
+	text-align: center;
+}
+
+header h1 {
+	color: #ffffff;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 10px 0px -5px 0px;
+	width: auto;
+	height: auto;
+}
+
+header p {
+	font-family: 'Assistant', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 1px;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+p, ul {
+	font-family: 'Assistant', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #e6e6ff;
+}
+
+a:hover {
+	color: #4dffff;
+}
+
+.headerContent {
+	border: 2px solid #ffffff;
+	top: 25px;
+	height: 96px;
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	left: 25%;
+}
+
+.bodyContent {
+	top: 175px;
+	left: 10%;
+	width: 80%;
+	height: 125%;
+	background-color: #e6e6ff;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.sideBar {
+	width: 25%;
+	height: 100%;
+	background-color: #00004d;
+	position: absolute;
+}
+
+.sideBar img {
+	border-radius: 50%;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	position: absolute;
+	top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.sideBar h2 {
+	color: #ffffff;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.sideBarContent {
+	top:225px;
+	left: 10%;
+	height: auto;
+	width: 80%;
+	position: absolute;
+	display: inline-block;
+}
+
+.sideBarContent p {
+	color: #e6e6ff;
+}
+
+.separator {
+	width: 100%;
+	height: 3px;
+	background-color: #ffffff;
+}
+
+.resume {
+	position: absolute;
+	display: inline-block;
+	left: 30%;
+	width: 65%;
+}
+
+.resume p {
+	font-size: 15px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-container div {
+  background-color: transparent;
+  width: 120px;
+  text-align: left;
+  line-height: auto;
+}
+
